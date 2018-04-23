@@ -39,7 +39,7 @@ The model I chose was pretty straightforward. In `models/shortlink.js` you'll se
 
 I wrote this app with the API in mind first. I didn't want to go too crazy on the front-end, again, because it didn't really seem like the point of this challenge. Ideally, if this was serving in production, the API would be an isolated & load-balanced microservice, and the frontend would be completely separated from this project.
 
-### Roadmap and Features
+## Roadmap and Features
 
 If I were to take this challenge further some immediate features that would be neat to implement would be:
 
