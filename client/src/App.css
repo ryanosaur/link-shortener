@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p, a {
+  color: #012639;
+}
+
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  padding: 20px;
+}
+
+.app-view-wrap {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  animation: fade-in .3s ease-in;
+}
+
+.app-input-wrap {
+  border: 1px solid #012639;
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+.app-input {
+  position: relative;
+  text-align: center;
+  background: #f0f0f0;
+  height: 37px;
+  width: 350px;
+  border: 0;
+  padding: 0;
+  border-radius: 6px 0 0 6px;
+}
+
+.app-button {
+  height: 37px;
+  width: 100px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #18C9C1;
+  color: white;
+  border: 0;
+  border-left: 1px solid #012639;
+  border-radius: 0 6px 6px 0;
+  opacity: 1;
+  padding: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.app-button:hover {
+  opacity: .5;
+}
+
+.app-link-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #012639;
+  border-radius: 6px;
+  background-color: #18C9C1;
+  animation: fade-in .3s ease-in;
+}
+
+.app-link-display a,
+.app-link-display a:visited,
+.app-link-display a:active, {
+  color: white;
+}
