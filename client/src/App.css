@@ -59,19 +59,20 @@ body {
   opacity: .5;
 }
 
-.app-link-display {
+.app-link-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   border: 1px solid #012639;
   border-radius: 6px;
+  width: 370px;
   background-color: #18C9C1;
   animation: fade-in .3s ease-in;
 }
 
-.app-link-display a,
-.app-link-display a:visited,
-.app-link-display a:active, {
-  color: white;
+.app-link,
+.app-link:visited,
+.app-link:active {
+  color: white !important;
 }

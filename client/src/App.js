@@ -57,8 +57,8 @@ class App extends Component {
   renderLinkDisplay = (hash) => {
     const link = `${window.location.origin}/${hash}`;
     return (
-      <div className="app-link-display">
-        <a href={link}>{ link }</a>
+      <div className="app-link-wrap">
+        <a className="app-link" href={link}>{ link }</a>
       </div>
     )
   }
